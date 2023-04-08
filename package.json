@@ -1,14 +1,15 @@
 {
-  "name": "react-double-scrollbar",
-  "version": "0.0.15",
+  "name": "react-double-scrollbar-fixed",
+  "version": "0.0.16",
   "description": "React component that adds a horizontal scrollbar to the top of a component",
   "main": "dist/DoubleScrollbar.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/umchee/react-double-scrollbar.git"
+    "url": "git@github.com:toadirog/react-double-scrollbar-fixed.git"
   },
   "files": [
-    "dist/index.js"
+    "dist/*.js",
+    "dist/*.js.map"
   ],
   "keywords": [
     "react",
@@ -17,12 +18,12 @@
     "scrollbar",
     "double scrollbar"
   ],
-  "author": "Scott McDaniel",
+  "author": "Scott McDaniel, react-double-scrollbar contributors",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/umchee/react-double-scrollbar/issues"
   },
-  "homepage": "https://github.com/umchee/react-double-scrollbar",
+  "homepage": "https://github.com/toadirog/react-double-scrollbar-fixed",
   "scripts": {
     "clean": "rimraf dist",
     "prebuild": "npm run clean",
